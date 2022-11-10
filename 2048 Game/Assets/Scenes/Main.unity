@@ -159,7 +159,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.33333334, g: 0.38431373, b: 0.4392157, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -176,7 +176,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 2.5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -254,3 +254,4 @@ MonoBehaviour:
   _width: 4
   _height: 4
   _nodePrefab: {fileID: 1771070411501053352, guid: d24191b438ba7af4a8bb76b2393246a3, type: 3}
+  _boardPrefab: {fileID: 791649969136206308, guid: edcd07c0cc47c694ebcde961632c3f0c, type: 3}
