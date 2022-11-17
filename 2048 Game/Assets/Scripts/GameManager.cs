@@ -84,7 +84,7 @@ public class GameManager : MonoBehaviour
             }
         }
 
-        var center = new Vector2((float)_width /2 - 0.5f,(float) _height / 2 -0.5f);
+        var center = new Vector2((float)_width /2 - 0.515f,(float) _height / 2 -0.35f);
 
         var board = Instantiate(_boardPrefab, center, Quaternion.identity);
         board.size = new Vector2(_width, _height);

@@ -47,6 +47,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Value: 0
+  Node: {fileID: 0}
+  MergingBlock: {fileID: 0}
+  Merging: 0
   _renderer: {fileID: 7767882359668693866}
   _text: {fileID: 783382096171309791}
 --- !u!1 &2575325130828329448
@@ -85,7 +88,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 5.6293, y: 5.6515}
+  m_SizeDelta: {x: 4.37, y: 4.81}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &7674453671311538618
 MeshRenderer:
@@ -176,7 +179,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 23.5
+  m_fontSize: 18.25
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -247,7 +250,7 @@ Transform:
   m_GameObject: {fileID: 7270229027732354439}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9, y: 0.9, z: 0.9}
+  m_LocalScale: {x: 0.85, y: 0.85, z: 0.85}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2491141333208318864}
@@ -293,7 +296,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: f5f51eb9bf5ede84f9560ba4afba4fe0, type: 3}
   m_Color: {r: 0.5283019, g: 0.24122463, b: 0.24122463, a: 1}
   m_FlipX: 0
