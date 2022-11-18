@@ -19,6 +19,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private int _winCondition = 2048;
 
     [SerializeField] private GameObject _winScreen, _loseScreen;
+    [SerializeField] private AudioSource switchNoise;
+
 
     private List<Node> _nodes;
     private List<Block> _blocks;
@@ -125,6 +127,7 @@ public class GameManager : MonoBehaviour
     void Shift(Vector2 dir)
     {
         ChangeState(GameState.Moving);
+        switchNoise.Play();
 
         var orderedBlocks = _blocks.OrderBy(b => b.Pos.x).ThenBy(b => b.Pos.y).ToList();
         if (dir == Vector2.right || dir == Vector2.up) orderedBlocks.Reverse();
